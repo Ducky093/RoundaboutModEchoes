@@ -5,7 +5,6 @@ import net.hydra.jojomod.sound.ModSounds;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -512,8 +511,8 @@ public class ForgeSounds {
             register(ModSounds.KIRA4_SHA_3, ModSounds.KIRA4_SHA_3_ID);
     public static final RegistryObject<SoundEvent> KIRA4_BTD_1_EVENT =
             register(ModSounds.KIRA4_BTD_1, ModSounds.KIRA4_BTD_1_ID);
-    public static final RegistryObject<SoundEvent> KIRA4_BTD_2_EVENT =
-            register(ModSounds.KIRA4_BTD_2, ModSounds.KIRA4_BTD_2_ID);
+    public static final RegistryObject<SoundEvent> KIRA4_PRIMARY_BOMB_2_EVENT =
+            register(ModSounds.KIRA4_PRIMARY_BOMB_2, ModSounds.KIRA4_PRIMARY_BOMB_2_ID);
     public static final RegistryObject<SoundEvent> KIRA4_BTD_RANGE_EVENT =
             register(ModSounds.KIRA4_BTD_RANGE, ModSounds.KIRA4_BTD_RANGE_ID);
 
@@ -996,7 +995,7 @@ public class ForgeSounds {
     public static final RegistryObject<SoundEvent> ANASUI_STAND_SUMMON_1 =
             register(ModSounds.ANASUI_STAND_SUMMON_1, ModSounds.ANASUI_HURT_1_ID);
     public static final RegistryObject<SoundEvent> ANASUI_STAND_SUMMON_2 =
-            register(ModSounds.ANASUI_STAND_SUMMON_1, ModSounds.ANASUI_STAND_SUMMON_1_ID);
+            register(ModSounds.ANASUI_STAND_SUMMON_2, ModSounds.ANASUI_STAND_SUMMON_2_ID);
     public static final RegistryObject<SoundEvent> ANASUI_KILL_1 =
             register(ModSounds.ANASUI_KILL_1, ModSounds.ANASUI_KILL_1_ID);
     public static final RegistryObject<SoundEvent> ANASUI_KILL_2 =
