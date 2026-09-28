@@ -68,7 +68,7 @@ public class PowersSexPistols extends NewDashPreset {
     @Override
     /**Override to add disable config*/
     public boolean isStandEnabled() {
-        return true
+        return true;
     }
     @Overide
     public boolean iswip(){return true;}
