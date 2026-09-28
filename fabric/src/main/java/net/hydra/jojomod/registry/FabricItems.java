@@ -168,6 +168,8 @@ public class FabricItems {
 
     public static Item STAND_DISC_PEARL_JAM = registerItem("pearl_jam_disc",
             new StandDiscItem(new Item.Properties().stacksTo(1), new PowersPearlJam(null)));
+    public static Item STAND_DISC_SEX_PISTOLS = registerItem("sex_pistols_disc",
+            new StandDiscItem(new Item.Properties().stacksTo(1), new PowersPearlJam(null)));
 
     public static Item STAND_DISC_CINDERELLA = registerItem("cinderella_disc",
             new StandDiscItem(new Item.Properties().stacksTo(1), new PowersCinderella(null)));
@@ -790,6 +792,7 @@ public class FabricItems {
                         entries.accept(STAND_DISC_OASIS);
                         entries.accept(MAX_STAND_DISC_OASIS);
                         entries.accept(STAND_DISC_PEARL_JAM);
+                        entries.accept(STAND_DISC_SEX_PISTOLS);
                         entries.accept(STAND_DISC_DIVER_DOWN);
                         entries.accept(MAX_STAND_DISC_DIVER_DOWN);
                         entries.accept(STAND_DISC_SILVER_CHARIOT);
@@ -919,6 +922,7 @@ public class FabricItems {
         ModItems.STAND_DISC_SURVIVOR = STAND_DISC_SURVIVOR;
         ModItems.STAND_DISC_CALIFORNIA_KING_BED = STAND_DISC_CALIFORNIA_KING_BED;
         ModItems.STAND_DISC_ACHTUNG = STAND_DISC_ACHTUNG;
+        ModItems.STAND_DISC_SEX_PISTOLS = STAND_DISC_SEX_PISTOLS;
         ModItems.STAND_DISC_CENTURY_BOY = STAND_DISC_20_CENTURY_BOY;
         ModItems.STAND_DISC_METALLICA = STAND_DISC_METALLICA;
         ModItems.MAX_STAND_DISC_METALLICA = MAX_STAND_DISC_METALLICA;

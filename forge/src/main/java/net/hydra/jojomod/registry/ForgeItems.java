@@ -809,7 +809,8 @@ public class ForgeItems {
     public static final RegistryObject<Item> STAND_DISC_CINDERELLA = addToDiscTab(ITEMS.register("cinderella_disc",
             () -> new StandDiscItem(new Item.Properties().stacksTo(1), new PowersCinderella(null))));
 
-
+    public static final RegistryObject<Item> STAND_DISC_SEX_PISTOLS = addToDiscTab(ITEMS.register("sex_pistols_disc",
+            () -> new StandDiscItem(new Item.Properties().stacksTo(1), new PowersSexPistols(null))));
     public static final RegistryObject<Item> STAND_DISC_ACHTUNG = addToDiscTab(ITEMS.register("achtung_baby_disc",
             () -> new StandDiscItem(new Item.Properties().stacksTo(1), new PowersAchtungBaby(null))));
     public static final RegistryObject<Item> STAND_DISC_MANHATTAN_TRANSFER = addToDiscTab(ITEMS.register("manhattan_transfer_disc",
