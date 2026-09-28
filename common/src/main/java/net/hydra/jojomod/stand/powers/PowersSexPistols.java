@@ -137,9 +137,9 @@ public class PowersSexPistols extends NewDashPreset {
             case PowerIndex.POWER_4_CROUCH -> {
                 return recon();
             }
-           return super.setPowerOther(move,lastMove);
         }
-return; }
+        return super.setPowerOther(move,lastMove);  
+ }
    public void reconClient() {
         if (!onCooldown(PowerIndex.SKILL_4_SNEAK)) {
             this.setCooldown(PowerIndex.SKILL_4_SNEAK, 20);
