@@ -1275,7 +1275,7 @@ public abstract class PlayerEntity extends LivingEntity implements IPlayerEntity
             ci.cancel();
         }
     }
-    private byte sexPistolsUses = 6
+    private byte sexPistolsUses = 6;
 
     public byte roundabout$getsexPistolsUses() {
         return sexPistolsUses;
